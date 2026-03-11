@@ -1,0 +1,41 @@
+{
+  "name": "vite-react-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 3100",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "==================LINTERS=================": "",
+    "prettier:fix": "prettier --write \"./**/*.js\"",
+    "stylelint": "npx stylelint \"./src/**/*.css\" --fix",
+    "eslint:fix": "npx eslint . --fix",
+    "lint:fix-all": "npm run stylelint & npm run prettier:fix & npm run eslint:fix"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.57.0",
+    "@typescript-eslint/parser": "^8.57.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^17.4.0",
+    "prettier": "^3.7.4",
+    "stylelint-config-clean-order": "^8.0.0",
+    "stylelint-config-standard": "^39.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4",
+    "vite-plugin-svgr": "^4.5.0"
+  }
+}
