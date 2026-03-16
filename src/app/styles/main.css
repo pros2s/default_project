@@ -1,0 +1,15 @@
+html {
+  font-size: 12px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.elps {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
